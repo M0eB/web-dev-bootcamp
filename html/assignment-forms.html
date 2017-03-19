@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<h1>Register</h1>
+
+<!-- FORM -->
+
+<form action="" method="get">
+	
+	<!-- Name -->
+
+	<div>
+		<label for="firstName">First Name:</label>
+		<input type="text" name="firstName" required placeholder="John">
+		<label for="lastName">Last Name:</label>	
+		<input type="text" name="lastName" required placeholder="Smith">	
+	</div>
+
+	<!-- Gender -->
+	<div>
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="male">
+
+		<label for="female">Female</label>
+		<input type="radio" name="gender" id="female">
+
+		<label for="other">Other</label>
+		<input type="radio" name="gender" value="other">
+	</div>
+
+	<!-- Birthday Date -->
+
+	<div>
+		<label>Birthday: </label>
+		<select id="month" title="Month">
+		 	<option value="0" selected disabled>Month</option>
+			<option value="1">January</option>
+			<option value="2">Febraury</option>
+			<option value="3">March</option>
+		</select>
+
+		<select id="day" title="Day">
+			<option value="0" selected disabled>Day</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+		</select>
+
+		<select id="year" title="Year">
+			<option value="0" selected disabled>Year</option>
+			<option value="1987">1987</option>
+			<option value="1988">1988</option>
+			<option value="1989">1989</option>
+		</select>
+	</div>
+
+	<!-- Email and Password -->
+
+	<div>
+		<label for="email">Email:</label>
+		<input type="email"    name="email" required placeholder="your email">
+		<label for="password">Password:</label>
+		<input type="password" name="password" required placeholder="your password">			
+	</div>
+
+	<!-- Agreement -->
+
+	<div>
+		<label for checkbox>I agree to the terms and conditions </label>
+		<input type="checkbox" name="checkbox">	
+	</div>
+
+	<!-- Submit -->
+
+	<input type="submit"   name="Submit">	
+</form>
+
+
+</body>
+</html>
